@@ -1,16 +1,25 @@
-.grid {
+body {
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  align-items: center;
   justify-content: center;
-  max-width: 1400px;
-  margin-inline: auto;
-  padding: 24px;
+  background: #242f32;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width: 1440px;
+  max-width: 100%;
+  padding: 25px;
+  justify-items: center;
 }
 
 .card {
   width: 240px;
-  background: #161b22;
+  background: #29323f;
   border: 1px solid #30363d;
   border-radius: 8px;
   padding: 20px;
@@ -26,11 +35,13 @@
 .card h3 {
   margin: 12px 0 6px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .card p {
   margin: 0;
   opacity: 0.85;
+  font-size: 14px;
 }
 
 .avatar {
@@ -40,4 +51,5 @@
   display: block;
   margin: 0 auto;
   background: #0d1117;
+  border: 2px solid #30363d;
 }
