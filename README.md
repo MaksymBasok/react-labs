@@ -1,12 +1,22 @@
-# React + Vite
+# React Labs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Репозиторій для лабораторних робіт з курсу **React**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Структура проєкту
+- 📁 **lab1/**  
+  Створення та деплой базового React-додатку за допомогою **Vite**, інтеграція з **GitHub** та **Vercel**.
 
-## Expanding the ESLint configuration
+- 📁 **lab2/**
+  Робота з **компонентами**, **props** та **state**.
+  Завдання: створення компонента `Profile`, підготовка масиву користувачів, рендер списку карток через `map()`, застосування стилів.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Результати виконання
+- ✅ **Lab 1** – реалізовано і задеплойовано базовий проєкт.
+  🔗 [Переглянути на Vercel](#)
+
+- ✅ **Lab 2** – створено компонент `Profile`, використано props, масив даних, `map()` для рендерингу та стилізовано картки.
+  🔗 [Переглянути на Vercel](#)

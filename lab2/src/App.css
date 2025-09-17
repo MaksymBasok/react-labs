@@ -1,0 +1,43 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1400px;
+  margin-inline: auto;
+  padding: 24px;
+}
+
+.card {
+  width: 240px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: #58a6ff;
+}
+
+.card h3 {
+  margin: 12px 0 6px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.avatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  background: #0d1117;
+}
