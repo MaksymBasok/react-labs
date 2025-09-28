@@ -1,0 +1,25 @@
+.row{
+  position:relative; z-index:1;
+  display:flex; gap:12px; margin: 6px 0 18px;
+}
+
+.input{
+  flex:1; height:54px; padding:0 16px;
+  border: var(--border); border-radius:14px;
+  background: var(--glass);
+  color: var(--text); outline:none;
+  transition: border-color .15s, box-shadow .15s, background .15s;
+}
+
+.input::placeholder{ color: var(--muted) }
+.input:focus{ box-shadow: var(--ring); border-color: rgba(127,90,240,.55) }
+
+.btn{
+  height:54px; padding:0 22px; border:none; border-radius:14px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color:#0a0f1c; font-weight:700; letter-spacing:.2px; cursor:pointer;
+  transition: transform .08s ease, filter .15s;
+  box-shadow: 0 10px 24px rgba(127,90,240,.35);
+}
+.btn:hover{ filter: brightness(1.1) }
+.btn:active{ transform: translateY(1px) }

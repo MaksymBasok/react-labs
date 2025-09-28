@@ -1,0 +1,35 @@
+.card{
+  width:min(820px, 100%);
+  backdrop-filter: blur(20px) saturate(140%);
+  background: var(--panel);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before{
+  content:"";
+  position:absolute; inset:-2px;
+  background: conic-gradient(from 120deg, rgba(127,90,240,.45), rgba(0,209,255,.35), transparent 25%);
+  filter: blur(22px);
+  z-index:0;
+  pointer-events:none;
+}
+
+.title{
+  position:relative; z-index:1;
+  margin:0 0 18px 0;
+  text-align:center;
+  font-size:28px;
+  letter-spacing:.4px;
+  font-weight: 700;
+}
+
+.list{
+  position:relative; z-index:1;
+  list-style:none; padding:0; margin:0;
+  display:grid; gap:14px;
+}
