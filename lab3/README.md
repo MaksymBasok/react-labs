@@ -1,7 +1,7 @@
 # Component Tree & Data Flow
 
 ## Diagram
-![Component Tree Diagram](scr/assets/Diagram.drawio.png)
+![Component Tree Diagram](src/assets/Diagram.drawio.png)
 
 ## Description
 
