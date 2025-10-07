@@ -1,0 +1,13 @@
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.tabs{display:flex;gap:8px;background:#0b1324;border:1px solid #223256;border-radius:12px;padding:4px}
+.tab{
+  height:36px;padding:0 12px;border-radius:10px;border:1px solid transparent;
+  background:transparent;color:#cfe2ff;cursor:pointer;transition:all .15s;
+}
+.tab:hover{background:#0f1a33;border-color:#2b3d66}
+.active{background:linear-gradient(135deg,#3a7bfd,#6ee7f5);color:#07111f;font-weight:700}
+.input{
+  height:36px;min-width:220px;padding:0 12px;border-radius:10px;
+  border:1px solid #23304e;background:#0c1426;color:#e6edf7;flex:1
+}
+.input:focus{border-color:#4ea1ff;box-shadow:0 0 0 3px #4ea1ff22;outline:none}

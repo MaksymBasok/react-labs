@@ -1,0 +1,5 @@
+.card{padding:0}
+.title{margin:0 0 16px;font:700 26px/1.2 ui-sans-serif,system-ui,Segoe UI,Roboto;color:#e7eefb}
+.toolbar{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap;margin:0 0 8px}
+.list{list-style:none;margin:14px 0 10px;padding:0;display:grid;gap:10px}
+.error{color:#ff9ea6;margin:16px 0}

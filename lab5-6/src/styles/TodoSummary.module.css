@@ -1,0 +1,9 @@
+.bar{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;margin:6px 0 8px;padding:10px 12px;border:1px solid #1e2a44;border-radius:12px;background:#0d1527;
+}
+.stats{display:flex;gap:14px;color:#cfe2ff;flex-wrap:wrap}
+.reset{
+  height:36px;padding:0 12px;border-radius:10px;border:1px solid #243357;background:#0c1426;color:#cfe2ff;cursor:pointer;
+}
+.reset:hover{border-color:#4ea1ff}

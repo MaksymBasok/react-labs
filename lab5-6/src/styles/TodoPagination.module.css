@@ -1,0 +1,18 @@
+.bar{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 0;
+  padding-top:10px;border-top:1px solid #1f2a44
+}
+.left{display:flex;gap:10px;align-items:center}
+.right{display:flex;gap:12px;align-items:center}
+
+.button{
+  height:36px;min-width:110px;padding:0 14px;border-radius:10px;border:1px solid #23304e;
+  background:#0c1426;color:#cfe2ff;cursor:pointer;transition:.15s;
+}
+.button:hover{border-color:#4ea1ff}
+.button:disabled{opacity:.45;cursor:default}
+
+.badge{color:#a9bfed}
+.select{
+  height:36px;border-radius:10px;border:1px solid #23304e;background:#0c1426;color:#e6edf7;padding:0 10px
+}
