@@ -1,0 +1,14 @@
+.card{
+  width:min(920px,100%);
+  background:#0e1626cc;
+  border:1px solid #1f2a44;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.35);
+  padding:28px;
+  backdrop-filter: blur(6px);
+}
+.title{
+  margin:0 0 16px;
+  font:700 28px/1.2 system-ui,Segoe UI,Roboto,Arial;
+  color:#e7eefb;
+}

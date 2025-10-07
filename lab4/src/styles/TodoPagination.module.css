@@ -1,0 +1,14 @@
+.row{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;margin:8px 0 0;
+}
+.pages{display:flex;gap:6px;flex-wrap:wrap}
+.btn{
+  min-width:36px;height:36px;padding:0 10px;border-radius:10px;border:1px solid #23304e;
+  background:#0c1426;color:#cfe2ff;cursor:pointer
+}
+.active{background:#163058;border-color:#4ea1ff}
+.select{
+  height:36px;border-radius:10px;border:1px solid #23304e;background:#0c1426;color:#e6edf7;
+  padding:0 10px;
+}

@@ -1,0 +1,19 @@
+.row{
+  display:flex;gap:12px;align-items:center;justify-content:space-between;
+  margin:6px 0 8px;
+}
+.modes{display:flex;gap:8px;flex-wrap:wrap}
+.tab{
+  height:36px;padding:0 12px;border-radius:10px;border:1px solid #23304e;
+  background:#0c1426;color:#cfe2ff;cursor:pointer
+}
+.active{background:#163058;border-color:#4ea1ff}
+.search{
+  width:260px;max-width:48vw;height:36px;padding:0 12px;border-radius:10px;
+  border:1px solid #23304e;background:#0c1426;color:#e6edf7;
+}
+.search:focus{border-color:#4ea1ff;box-shadow:0 0 0 3px #4ea1ff22}
+@media (max-width:640px){
+  .row{flex-direction:column;align-items:stretch}
+  .search{width:100%}
+}

@@ -1,0 +1,27 @@
+.row{
+  display:flex;
+  gap:10px;
+  margin:10px 0 16px;
+}
+.input{
+  flex:1;
+  height:44px;
+  padding:0 14px;
+  border:1px solid #213152;
+  background:#0c1526;
+  color:#e6edf7;
+  border-radius:12px;
+  outline:none;
+}
+.input:focus{border-color:#4ea1ff;box-shadow:0 0 0 3px #4ea1ff22;}
+.btn{
+  height:44px;
+  padding:0 18px;
+  border:0;
+  border-radius:12px;
+  background:linear-gradient(135deg,#3a7bfd,#6ee7f5);
+  color:#07111f;
+  font-weight:700;
+  cursor:pointer;
+}
+.btn:disabled{opacity:.6;cursor:default}
