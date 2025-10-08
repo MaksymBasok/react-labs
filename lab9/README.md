@@ -3,7 +3,7 @@
 ## Component Tree & Data Flow
 
 ### Diagram
-![Component Tree Diagram](src/assets/diagram-address-book.drawio.png)
+![Component Tree Diagram](src/assets/diagram-address-book.drawio2.png)
 
 ### Description
 
