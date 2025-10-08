@@ -1,0 +1,8 @@
+.wrap{
+  min-height:100vh; display:flex; align-items:center; justify-content:center;
+  padding:48px 24px; background:#0b1220;
+}
+.card{
+  width:min(980px,100%); background:#0f1626; border:1px solid #222c44;
+  border-radius:14px; padding:24px; color:#e6ecff;
+}

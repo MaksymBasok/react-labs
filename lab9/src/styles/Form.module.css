@@ -1,0 +1,14 @@
+.box{ background:#0f182a; border:1px solid #222c44; border-radius:12px; padding:16px; }
+.row{ display:grid; grid-template-columns:1fr; gap:12px; }
+.label{ color:#9fb0d6; font-size:13px; }
+.input{
+  width:90%; padding:10px 12px; border-radius:10px; border:1px solid #2a3a5e;
+  background:#0b1220; color:#e6ecff; outline:none;
+}
+.input:focus{ border-color:#5ea1ff; box-shadow:0 0 0 3px rgba(94,161,255,.15); }
+.error{ color:#ff6b6b; font-size:12px; margin-top:-6px; }
+.btn{
+  margin-top:4px; width:100%; padding:12px 14px; border:0; border-radius:10px;
+  background:#5ea1ff; color:#08101f; font-weight:700; cursor:pointer;
+}
+.btn:disabled{ opacity:.6; cursor:not-allowed; }
